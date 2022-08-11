@@ -1,5 +1,5 @@
 /* Змінні */
-:root {
+/* :root {
     --main-gray: #757575;
     --main-black: #212121;
     --main-blue: #2196F3;
@@ -7,11 +7,10 @@
     --main-light-gray: #F5F4FA;
     --gray-background: #2F303A;
     --transition-dur-funk: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
-}
+} */
 
 /* Body (загальні та скидання) */
-
+/* 
 body {
     font-family: 'Roboto', sans-serif; 
     color: var(--main-black);
@@ -42,13 +41,6 @@ img {
     text-decoration: none;
 }
 
-.subtitle {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 .container {
     width: 1200px;
@@ -77,9 +69,17 @@ img {
     overflow: hidden;
 }
 
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+} */
+
 /* Header */
 
-.header {
+/* .header {
     padding-top: 24px;
     padding-bottom: 24px; 
     border-bottom: 1px solid #ECECEC;
@@ -124,12 +124,12 @@ img {
 
 .menu-list-item:not(:last-child) {
     margin-right: 50px;
-}
+} */
 
 
 /* Налаштування підсвітки клавіші при активному класі */
 
-.menu-link-name.active::after {
+/* .menu-link-name.active::after {
     position: absolute;
     display: flex;
     content: "";
@@ -166,9 +166,9 @@ img {
 }
 .menu-link-name:hover, .menu-link-name:focus {
     color: var(--main-blue);
-}
+} */
 
-.address-info {
+/* .address-info {
     color: var(--main-gray);
     align-items: center;
     display: inline-flex;
@@ -177,9 +177,9 @@ img {
 
 .address-info:hover, .address-info:focus {
     color: var(--main-blue);
-}
+} */
 /* Активна кнопка поточної вкладки (пріорітетність за рахунок тегу, що розміщений нижче в потоці!)*/
-.active {
+/* .active {
     color: var(--main-blue);
 }
 
@@ -195,16 +195,16 @@ img {
     height: 16px;
     margin-right: 10px;
     display: inline-block;
-}
+} */
 
 
-.mail-icon:hover, .mail-icon:focus, .phone-icon:hover, .phone-icon:focus, .address-info {
+/* .mail-icon:hover, .mail-icon:focus, .phone-icon:hover, .phone-icon:focus, .address-info {
     fill: currentColor;
-}
+} */
 
 /* Solutions */ 
 
-.solutions {
+/* .solutions {
     color: var(--main-white);
     background-color: #c4c4c4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/team-bckgrnd.jpg);
@@ -255,11 +255,11 @@ img {
 .modal-button:hover, .modal-button:focus {
     background-color: #188CE8;
 
-}
+} */
 
 /* Advantages */
 
-.advantage-list {
+/* .advantage-list {
     display: flex;
     justify-content: center;
 }
@@ -272,7 +272,7 @@ img {
     text-transform: uppercase;
 
     margin-bottom: 10px;
-}
+} */
 
 /* .advantage-list-item::before {
     display: inline-block;
@@ -302,7 +302,7 @@ img {
     background-image: url(../images/astronaut.svg);
 } */
 
-.advantage-picture {
+/* .advantage-picture {
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -331,7 +331,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--main-gray)
 
-}
+} */
 
 /* Our work */
 

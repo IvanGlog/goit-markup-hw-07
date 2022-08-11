@@ -1,7 +1,18 @@
+/* Body (загальні та скидання) */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-black);
+  background-color: #FFFFFF;
+
+}
+
 h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -18,18 +29,10 @@ img {
   display: block;
 }
 
-button {
-  cursor: pointer;
-}
-
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-}
-
-body {
-  font-family: var(--primary-font);
 }
