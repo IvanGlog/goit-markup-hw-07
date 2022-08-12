@@ -333,7 +333,7 @@ img {
 
 } */
 
-/* Our work */
+/* Our work
 
 .work {
     padding-top: 0;
@@ -371,7 +371,7 @@ img {
     align-items: center;
 
     color: var(--main-white);
-}
+} */
 
 
 
@@ -455,7 +455,7 @@ img {
 
 /* Regular Client */
 
-.regular-client-list {
+/* .regular-client-list {
     margin-top: 50px;
 
     display: flex;
@@ -466,10 +466,10 @@ img {
 .regular-client-item {
     width: 170px;
     height: 92px;
-}
+} */
 
 /* Написання класів!! */
-.regular-client-link:hover .regular-client-logo, .regular-client-link:focus .regular-client-logo, .regular-client-link:hover, .regular-client-link:focus {
+/* .regular-client-link:hover .regular-client-logo, .regular-client-link:focus .regular-client-logo, .regular-client-link:hover, .regular-client-link:focus {
     fill: var(--main-blue);
     border-color: var(--main-blue);
 }
@@ -491,10 +491,10 @@ img {
     fill: #AFB1B8;
     transition: fill var(--transition-dur-funk);
 }
- 
+  */
 /* Footer */
 
-.footer {
+/* .footer {
     background-color: var(--gray-background);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -642,7 +642,7 @@ address {
     width: 24px;
     height: 24px;
     margin-left: 10px;
-}
+} */
 
 
 
@@ -650,7 +650,7 @@ address {
 
 /* Filters */
 
-.filter-list {
+/* .filter-list {
     display: flex;
 }
 
@@ -681,11 +681,11 @@ address {
     color: var(--main-white);
     background-color: var(--main-blue);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Our clients */
 
-.client-list {
+/* .client-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -705,7 +705,7 @@ address {
     transform: translate(0, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
-}
+} */
 
 /* .client-list-item:not(:nth-child(3n)) {
     margin-right: 30px;
@@ -714,7 +714,7 @@ address {
     margin-bottom: 30px;
 } */
 
-.client-list-item-thumb {
+/* .client-list-item-thumb {
     position: relative;
     overflow: hidden;
 }
@@ -768,11 +768,11 @@ address {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--main-gray);
-}
+} */
 
 /* Modal Window */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -838,11 +838,11 @@ address {
 
 .close-button:hover .close-button-icon, .close-button:focus .close-button-icon {
     fill: var(--main-blue);
-}
+} */
 
 
 /* ---------Modal Form---------- */
-
+/* 
 .modal-form {
     display: flex;
     flex-direction: column;
@@ -979,9 +979,9 @@ address {
 
 .modal-form-check:focus + .modal-form-check-descr::before {
     outline: 2px solid rgba(0, 0, 255, 0.5);
-}
+} */
 
-.madal-form-submit {
+/* .madal-form-submit {
     width: 200px;
     height: 50px;
     background-color: var(--main-blue);
@@ -998,10 +998,10 @@ address {
     margin-right: auto;
     /* або align-self: center; */
 
-    transition: background-color var(--transition-dur-funk);
+    /* transition: background-color var(--transition-dur-funk);
     cursor: pointer;
-}
+} */
 
-.madal-form-submit:hover, .madal-form-submit:focus {
+/* .madal-form-submit:hover, .madal-form-submit:focus {
     background-color: #188CE8;
-}
+} */
