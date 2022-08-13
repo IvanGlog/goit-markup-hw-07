@@ -1032,17 +1032,15 @@ address {
   padding: 0;
   transition: border-color var(--transition-dur-funk);
 }
+.close-button:hover, .close-button:focus {
+  border-color: var(--main-blue);
+}
 
 .close-button-icon {
   width: 18px;
   height: 18px;
   transition: fill var(--transition-dur-funk);
 }
-
-.close-button:hover, .close-button:focus {
-  border-color: var(--main-blue);
-}
-
 .close-button:hover .close-button-icon, .close-button:focus .close-button-icon {
   fill: var(--main-blue);
 }
@@ -1074,7 +1072,6 @@ address {
   transition: border-color var(--transition-dur-funk);
   cursor: pointer;
 }
-
 .modal-form-input:focus {
   outline: none;
   border-color: var(--main-blue);
@@ -1088,7 +1085,6 @@ address {
   margin-bottom: 10px;
   color: var(--main-black);
 }
-
 .modal-form-field:nth-child(5) {
   margin-bottom: 20px;
 }
@@ -1128,7 +1124,6 @@ address {
   border-radius: 4px;
   cursor: pointer;
 }
-
 .modal-form-message::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -1136,7 +1131,6 @@ address {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .modal-form-message:focus {
   outline: none;
   border-color: var(--main-blue);
@@ -1152,12 +1146,6 @@ address {
   color: var(--main-gray);
   margin-bottom: 30px;
 }
-
-.modal-form-check-descr-link {
-  color: var(--main-blue);
-  text-decoration: underline;
-}
-
 .modal-form-check-descr::before {
   content: "";
   display: block;
@@ -1168,6 +1156,11 @@ address {
   margin-right: 8px;
   cursor: pointer;
   transition: background-color var(--transition-dur-funk);
+}
+
+.modal-form-check-descr-link {
+  color: var(--main-blue);
+  text-decoration: underline;
 }
 
 .modal-form-check:checked + .modal-form-check-descr::before {
@@ -1199,7 +1192,6 @@ address {
   transition: background-color var(--transition-dur-funk);
   cursor: pointer;
 }
-
 .madal-form-submit:hover, .madal-form-submit:focus {
   background-color: #188CE8;
 }/*# sourceMappingURL=main.css.map */
