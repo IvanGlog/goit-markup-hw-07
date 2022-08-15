@@ -627,18 +627,18 @@ img {
   margin-right: 30px;
 }
 
-.team-member-list {
+.member-data-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
 }
 
-.member-descr {
+.team-member__descr {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-member-name {
+.team-member__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -647,7 +647,7 @@ img {
   margin-bottom: 10px;
 }
 
-.member-position {
+.team-member__position {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -661,17 +661,17 @@ img {
   margin-top: 16px;
 }
 
-.social-item-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
   transition: fill var(--transition-dur-funk);
 }
-.social-item-link:hover .social-item-icon, .social-item-link:focus .social-item-icon {
+.social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
   fill: var(--main-white);
 }
 
-.social-item-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -680,7 +680,7 @@ img {
   border-radius: 50%;
   transition: background-color var(--transition-dur-funk);
 }
-.social-item-link:hover, .social-item-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--main-blue);
 }
 
@@ -755,14 +755,13 @@ img {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--transition-dur-funk);
 }
+.footer-address-info:hover, .footer-address-info:focus {
+  color: var(--main-blue);
+}
 
 address {
   font-style: normal;
   margin-top: 20px;
-}
-
-.footer-address-info:hover, .footer-address-info:focus {
-  color: var(--main-blue);
 }
 
 .footer-social-list-data {
@@ -784,7 +783,7 @@ address {
   gap: 10px;
 }
 
-.footer-social-item-link {
+.footer-social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -794,11 +793,11 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--transition-dur-funk);
 }
-.footer-social-item-link:hover, .footer-social-item-link:focus {
+.footer-social-list__link:hover, .footer-social-list__link:focus {
   background-color: var(--main-blue);
 }
 
-.footer-social-item-icon {
+.footer-social-list__icon {
   width: 20px;
   height: 20px;
   fill: var(--main-white);
