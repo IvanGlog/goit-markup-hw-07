@@ -13,19 +13,19 @@
     }
 }
 
-.team-member-list {
+.member-data-list {
     display: flex;
     flex-wrap: wrap;
 
     margin-top: 50px;
 }
 
-.member-descr {
+.team-member__descr {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team-member-name {
+.team-member__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -35,7 +35,7 @@
     margin-bottom: 10px;
 }
 
-.member-position {
+.team-member__position {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
@@ -49,21 +49,21 @@
     margin-top: 16px;
 }
 
-.social-item-icon {
+.social-list__icon {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
     transition: fill var(--transition-dur-funk);
 
     
-    .social-item-link:hover &,
-    .social-item-link:focus & {
+    .social-list__link:hover &,
+    .social-list__link:focus & {
     fill: var(--main-white);
     }
 }
 
 
-.social-item-link {
+.social-list__link {
     display: flex;
     justify-content: center;
     align-items: center;

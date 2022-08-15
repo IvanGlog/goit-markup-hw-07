@@ -34,6 +34,10 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--transition-dur-funk);
+
+    &:hover, &:focus {
+        color: var(--main-blue);
+    }
 }
 
 address {
@@ -41,9 +45,6 @@ address {
     margin-top: 20px;
 }
 
-.footer-address-info:hover, .footer-address-info:focus {
-    color: var(--main-blue);
-}
 
 .footer-social-list-data {
     margin-left: 70px;
@@ -66,7 +67,7 @@ address {
     gap: 10px;
 }
 
-.footer-social-item-link {
+.footer-social-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +85,7 @@ address {
 
 
 
-.footer-social-item-icon {
+.footer-social-list__icon {
     width: 20px;
     height: 20px;
     fill: var(--main-white);
@@ -118,9 +119,6 @@ address {
     }
 }
 
-
-
-
 .subscribe-button {
     width: 200px;
     height: 50px;
@@ -147,8 +145,6 @@ address {
         background-color: #188CE8;
     }
 }
-
-
 
 .subscribe-button-icon {
     width: 24px;
