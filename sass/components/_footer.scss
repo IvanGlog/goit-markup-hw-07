@@ -11,11 +11,16 @@
     align-items: baseline;
 }
 
-.footer-logo-word {
+.footer-logo__word {
     color: var(--main-white);
 }
 
-.footer-address-data {  
+.footer-address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.footer-address__data {  
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -24,11 +29,11 @@
     margin-bottom: 9px;
 }
 
-.footer-address-item:first-child {
+.footer-address__item:first-child {
     margin-bottom: 9px;
 }
 
-.footer-address-info {
+.footer-address__info {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -40,18 +45,13 @@
     }
 }
 
-address {
-    font-style: normal;
-    margin-top: 20px;
-}
 
-
-.footer-social-list-data {
+.footer-social-list {
     margin-left: 70px;
 }
 
 
-.footer-social-list-subtitle {
+.footer-social-list__subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -62,7 +62,7 @@ address {
     margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer-social-list__data {
     display: flex;
     gap: 10px;
 }
@@ -83,8 +83,6 @@ address {
     }
 }
 
-
-
 .footer-social-list__icon {
     width: 20px;
     height: 20px;
@@ -95,16 +93,16 @@ address {
     margin-left: 93px;
 }
 
-.footer-subscribe-form {
+.footer-subscribe__form {
     display: flex;
 }
 
-.subscribe-email {
+.footer-subscribe__email {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
+    @include radius;
     background-color: var(--gray-background);
     padding: 16px 15px;
     color: var(--main-white);
@@ -133,7 +131,7 @@ address {
     color: var(--main-white);
     background-color: var(--main-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    @include radius;
     cursor: pointer;
     border: none;
 
@@ -146,7 +144,7 @@ address {
     }
 }
 
-.subscribe-button-icon {
+.subscribe-button__icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;

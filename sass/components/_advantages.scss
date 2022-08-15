@@ -46,7 +46,7 @@
 .advantage-picture {
     height: 120px;
     background-color: #F5F4FA;
-    border-radius: 4px;
+    @include radius;
     margin-bottom: 30px;
 
     display: flex;

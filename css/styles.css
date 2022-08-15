@@ -455,7 +455,7 @@ img {
 
 /* Regular Client */
 
-/* .regular-client-list {
+/* .regular-client__list {
     margin-top: 50px;
 
     display: flex;
@@ -463,7 +463,7 @@ img {
 
 }
 
-.regular-client-item {
+.regular-client__item {
     width: 170px;
     height: 92px;
 } */
