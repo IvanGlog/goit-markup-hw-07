@@ -46,10 +46,10 @@
     min-width: 200px;
     min-height: 50px;
     transition: background-color var(--transition-dur-funk);
-}
 
-.modal-button:hover,
-.modal-button:focus {
+    &:hover,
+    &:focus {
     background-color: #188CE8;
-
+    }
 }
+

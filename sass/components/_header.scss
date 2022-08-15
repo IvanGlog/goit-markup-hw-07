@@ -42,12 +42,46 @@
 
 .menu-list-item {
     position: relative;
+
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
-.menu-list-item:not(:last-child) {
+
+.header-address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    
+}
+
+.header-address-item:not(:last-child) {
     margin-right: 50px;
 }
 
+.menu-link-name {
+    position: relative;
+    color: var(--main-black);
+    padding-top: 30px;
+    padding-bottom: 32px;
+    transition: color var(--transition-dur-funk);
+
+    &:hover,
+    &:focus {
+    color: var(--main-blue);
+    }
+}
+
+.menu-link-name.active {
+    color: var(--main-blue);
+}
 
 /* Налаштування підсвітки клавіші при активному класі */
 
@@ -63,51 +97,18 @@
     bottom: 0;
 }
 
-.header-address {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-
-.header-address-item:not(:last-child) {
-    margin-right: 50px;
-}
-
-.menu-link-name {
-    position: relative;
-    color: var(--main-black);
-    padding-top: 30px;
-    padding-bottom: 32px;
-    transition: color var(--transition-dur-funk);
-
-}
-
-.menu-link-name:hover,
-.menu-link-name:focus {
-    color: var(--main-blue);
-}
-
 .address-info {
     color: var(--main-gray);
     align-items: center;
     display: inline-flex;
     transition: fill var(--transition-dur-funk), color var(--transition-dur-funk);
+
+    &:hover,
+    &:focus {
+    color: var(--main-blue);
+    }
 }
 
-.address-info:hover,
-.address-info:focus {
-    color: var(--main-blue);
-}
-
-/* Активна кнопка поточної вкладки (пріорітетність за рахунок тегу, що розміщений нижче в потоці!)*/
-.active {
-    color: var(--main-blue);
-}
 
 .mail-icon {
     width: 16px;

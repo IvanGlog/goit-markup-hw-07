@@ -61,11 +61,12 @@
 
 .advantage-list-item {
     width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.advantage-list-item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .advantage-descr {
     font-size: 14px;
